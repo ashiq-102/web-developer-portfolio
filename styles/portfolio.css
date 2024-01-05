@@ -1,0 +1,54 @@
+/* common shared style */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    /* Mary ta ek line e anar jonne align-items center kora hoise */
+    align-items: center;
+    /* nav er moddhe mary and (portfolio, blog, hire me) egula k 2 pashe newar jonne justify-content:space-between kora hoise */
+
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+nav>ul {
+    display: flex;
+    /* nav bar er (portfolio, blog, hire me) egula re ek line e anar jonne center kora hoise */
+    align-items: center; 
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
